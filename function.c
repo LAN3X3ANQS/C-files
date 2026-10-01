@@ -1,9 +1,6 @@
 #include <stdio.h>
 #include <math.h>
-int calculateSum(int number1 , int number2) {
-    int sum = number1 + number2;
-    return sum;
-}
+int calculateSum(int number1 , int number2);
 int main() {
 
 /*
@@ -16,4 +13,9 @@ returnType functionName(parameters) {
     printf("Result = %d", result);
 
     return 0;
+}
+
+int calculateSum(int number1 , int number2) {
+    int sum = number1 + number2;
+    return sum;
 }
